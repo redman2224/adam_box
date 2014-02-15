@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'unicorn-rails'
-gem 'pg'
+gem 'sqlite3', '1.3.8'
 gem 'activerecord-postgres-hstore'
 
 # ------------------------------------------ Assets
