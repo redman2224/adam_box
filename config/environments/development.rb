@@ -28,4 +28,9 @@ AdamBox::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  ENV['TWITTER_CONSUMER_KEY'] = "TI9DSHOGLKWaWXijMsXvbg"
+  ENV['TWITTER_CONSUMER_SECRET'] = "C3fgfFhVAgBJJNr58327yknks94wmHHoUKk3oipDA"  
+  # ENV['FACEBOOK_CONSUMER_KEY'] = "612897052117515"
+  # ENV['FACEBOOK_CONSUMER_SECRET'] = "f2fe4b60e52dd1688e8e14b8cf666336"
 end

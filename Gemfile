@@ -30,7 +30,8 @@ gem 'honeypot-captcha'
 gem 'email_validator'
 gem 'videojs_rails'
 gem 'google-analytics-rails'
-
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 # ------------------------------------------ Testing
 
 group :development, :test do
